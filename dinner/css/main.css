@@ -1,0 +1,159 @@
+
+body {
+    margin: 0;
+    background: #FFF4E4;
+    color: #333;
+font-family: 'Noto Sans Symbols 2', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+#dinner{
+  text-align: center;
+}
+
+#container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 3rem;
+    border-radius: 25px;
+    border-style: double;
+    border-width: thick;
+    border-color:#000;
+    box-shadow: 10px 5px 5px;
+}
+
+
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  text-decoration:underline;
+  text-decoration-style: dotted;
+    text-align: center;
+    margin: 0;
+    line-height: 1.4;
+}
+
+
+table {
+  margin: 30px auto;
+}
+
+td, th {
+  overflow: visible;
+  padding: 0.5rem 2rem;
+}
+
+th {
+font-size: 1.2rem;
+  text-align: left;
+  vertical-align: bottom;
+  text-decoration:underline;
+}
+
+td{
+  text-align: left;
+}
+
+
+label {
+    display: block;
+    padding-top: 0.7rem;
+    text-align: left;
+}
+
+select {
+    background: #fff;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    height: 2rem;
+    padding: 0.1rem;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+font-family: 'Amatic SC', cursive;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.middle {
+  cursor: pointer;
+  width: auto;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  background: #EB855E;
+  border-radius: 10px;
+  border-color:#fff;
+font-family: 'Noto Sans Symbols 2', sans-serif;
+  font-size: 1.2rem;
+  margin: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.announce {
+  font-family: 'Noto Sans Symbols 2', sans-serif;
+    background:#C0EBBA;
+    padding: 20px 0;
+    text-align: center;
+    width: 90%;
+    margin: 2rem auto;
+    border: 2px solid #1A7743;
+}
+
+a {
+    color: #fff;
+    font-family: 'Noto Sans Symbols 2', sans-serif;
+}
+a:hover {
+    color: #ccc;
+}
+
+
+input[type='submit'] {
+    cursor: pointer;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    padding: 5px 25px;
+    background: #EB855E;
+    border-radius: 10px;
+    border-color:#fff;
+font-family: 'Noto Sans Symbols 2', sans-serif;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+
+input[type='submit']:hover {
+    background: #EB6024;
+}
+
+
+
+/* media queries */
+@media screen and ( max-width: 500px ) {
+    body {
+        background: #FFF4E4;
+    }
+
+
+    #container {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    #meals {
+        width: 100%;
+    }
+    .middle{
+      margin: 5rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+}
